@@ -26,7 +26,7 @@ contracts.
 ## For users
 
 If you're looking to utilize the capabilities of zkSync contracts within the Remix IDE, you've come to the right place.
-This section provides you with a straightforward guide to get started.
+This section provides you with a straightforward guide to get started
 
 ### Getting Started
 
