@@ -23,11 +23,13 @@ pub const CARGO_MANIFEST_DIR: &str = env!("CARGO_MANIFEST_DIR");
 
 pub const DURATION_TO_PURGE: u64 = 60 * 5; // 5 minutes
 
-pub const ZKSOLC_VERSIONS: [&str; 4] = ["1.5.6", "1.5.5", "1.4.1", "1.4.0"];
+// Array of supported compile versions in decreasing order
+pub const ZKSOLC_VERSIONS: [&str; 5] = ["1.5.7", "1.5.6", "1.5.5", "1.4.1", "1.4.0"];
 
 pub const DEFAULT_SOLIDITY_VERSION: &str = "0.8.24";
 
-pub const DEFAULT_ZKSOLC_VERSION: &str = "1.5.6";
+// Use latest compiler version as default
+pub const DEFAULT_ZKSOLC_VERSION: &str = ZKSOLC_VERSIONS[0];
 
 pub const ALLOWED_NETWORKS: [&str; 2] = ["sepolia", "mainnet"];
 
