@@ -1,7 +1,10 @@
 # zkSync Remix Plugin
 
-[![Pull Requests welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/NethermindEth/zksync-remix-plugin/issues)
-[![Discord](https://img.shields.io/discord/629004402170134531?label=Discord)](https://discord.com/invite/PaCMRFdvWT)
+> [!IMPORTANT]  
+> The development of ZKsync Remix plugin has been moved to [a new repository](https://github.com/matter-labs/zksync-remix-plugin).
+> This repository is no longer active. Please open issues and pull requests in the new repository.
+
+---
 
 Welcome to the **zkSync Remix Plugin** repository! 🎉
 
